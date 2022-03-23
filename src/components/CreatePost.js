@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
-import { PostContext } from "../App";
+import { PostContext } from "../Main";
 
 const CreatePost = ({ user }) => {
   const [content, setContent] = useState("");
